@@ -1,0 +1,202 @@
+/* HEADER SECTION */
+.header-nav {
+    color: #f4f4f4;
+    background: linear-gradient(#ee4d2d, #ff7337);
+    width: 100%;
+    height: 34px;
+    padding: 0 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.header-nav ul li {
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.shopee-svg-icon {
+    fill: #ee4d2d;
+    width: 8.125rem;
+    height: 2.875rem;
+    cursor: pointer;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 6.25rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
+    padding: 0 20%;
+}
+.header-logo svg {
+    margin-right: 20px;
+}
+.header-logo div {
+    border-left: 1px solid #ee4d2d;
+    padding-left: 20px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header-logo h2 {
+    color: #ee4d2d;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* MAIN CONTENT SECTION */
+.main-content {
+    width: 100%;
+    height: calc(100vh - 6.25rem);
+    padding: 0 20%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.main-content .add-item-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.main-content add-itens {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-content .add-itens h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+}
+.main-content .add-itens form {
+    display: flex;
+    flex-direction: column;
+}
+.main-content .add-itens form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+.main-content .add-itens form button {
+    padding: 10px;
+    background-color: #ee4d2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main-content .add-itens form button:hover {
+    background-color: #ff7337;
+}
+
+/* CART ITEMS SECTION */
+.main-content .cart-section .cart-header, .main-content .cart-items ul li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background: #fff;
+    border-radius: .125rem;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .05);
+    color: #888;
+    
+    font-size: 14px;
+    height: 55px;
+    line-height: 16px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.main-content .cart-section {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content .cart-items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-content .cart-items h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main-content .cart-items ul {
+    list-style: none;
+    padding: 0;
+}
+.main-content .cart-items ul li .item-quantity-controls {
+    font-size: .875rem;
+    color: #333;
+    
+}
+.main-content .cart-items ul li .item-quantity-controls button {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, .8);
+    border: 1px solid rgba(0, 0, 0, .09);
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 300;
+}
+.main-content .cart-items ul li .item-quantity-controls span {
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 6px 10px;
+}
+.main-content .cart-items ul li .item-subtotal {
+    color: #ff7337;
+}
+.main-content .cart-section .cart-totals {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .05);
+    display: flex;
+    justify-content: space-between;
+}
+.main-content .cart-section .cart-totals #total-amount {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ee4d2d;
+    margin-bottom: 20px;    
+    text-align: center;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, .09);
+}
